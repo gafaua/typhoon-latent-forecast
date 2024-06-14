@@ -1,0 +1,10 @@
+torch
+torchvision
+numpy
+pandas
+h5py
+git+https://github.com/kitamoto-lab/pyphoon2/
+wandb
+tqdm
+scikit-learn
+plotly
