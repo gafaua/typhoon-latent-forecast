@@ -31,7 +31,7 @@ def main():
         img = transforms(img)
         return img
 
-    model = get_moco_encoder("resnet34", "models/moco_sequence/moco_r34_w6_projector/checkpoint_10000.pth")
+    model = get_moco_encoder("resnet34", "weights/moco_sequence/moco_r34_w6_projector/checkpoint_10000.pth")
     print(f"Encoder ready, model with {sum(p.numel() for p in model.parameters()):,} parameters")
 
     dataset_path =  "/fs9/datasets/typhoon-202404/wnp"
