@@ -20,6 +20,6 @@ The `/lib/trainers` directory contains a `BaseTrainer` class and 2 different spe
 
 The `tests.ipynb` notebook contains the code needed to test the performance of the LSTM forecasting models as well as the code used to generate GIFs of forecasting inputs/outputs across sequences.
 
-### Example GIF output
+### Example GIF output for the 202302 Typhoon sequence
 
 <p align="center"> <img src='gifs/202302.gif' align="center""> </p> 
